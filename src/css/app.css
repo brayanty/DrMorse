@@ -46,28 +46,24 @@ body {
 
 /* Estilos para la sección de héroe */
 .Hero {
-  display: flex; /* Usar flexbox para alinear elementos horizontalmente */
-  align-items: center; /* Alinear verticalmente en el centro */
-  margin-bottom: 20px; /* Espaciado inferior */
-}
-
-/* Estilos para la imagen del héroe */
-.Header__img {
-}
-
-.Header__img-img {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
+  display: flex; /* Usar flexbox para alinear elementos horizontalmente */
+  align-items: center; /* Alinear verticalmente en el centro */
   z-index: -1000;
-  filter: blur(3px);
+  height: 50vh;
   width: 100%;
-  height: 60%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 3px;
 }
+
 
 /* Estilos para el texto del héroe */
 .Hero__text {
-  flex: 1; /* Permitir que el texto ocupe todo el espacio restante */
+  bottom:0px ;
+
 }
 
 .Hero__hero-title {

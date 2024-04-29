@@ -1,28 +1,22 @@
-import heros from "./consts.jsx"
-import { useEffect, useState } from "react";
+import { heros } from "./consts.jsx"
+import { useState } from "react";
 
 function Hero() {
+    const [selectHero, setSelectHero] = useState(0);
+    const selectedHero = heros.find(hero => hero.select === selectHero);
 
+    const src = `url(${selectedHero.src})`
 
-    heros.map((hero, index) => {
-        if (hero.select !== selectHero) {
-            return
-        }
-        return (
-            <>
-                <section className="Hero" style={{ background: hero.src }}>
-                    <figure className="Header__img">
-                        <img className="Header__img-img" src={hero.src} alt={hero.alt} />
-                    </figure>
-                    <div className="Hero__text" key={index}>
-                        <h4 className="Hero__hero-title">{hero.title}</h4>
-                        <p className="Hero__hero-paragraph">{hero.paragraph}</p>
-                    </div>
-                </section>
-            </>
-        )
-    })
-
+    return (
+        <>
+            <section className="Hero" style={{ backgroundImage: src }}>
+                <div className="Hero__text" >
+                    <h4 className="Hero__hero-title">{selectedHero.title}</h4>
+                    <p className="Hero__hero-paragraph">{selectedHero.paragraph}</p>
+                </div>
+            </section>
+        </>
+    );
 }
 
-export default Hero
+export default Hero;
