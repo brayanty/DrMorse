@@ -11,8 +11,8 @@ function Hero() {
         <>
             <section className="Hero" style={{ backgroundImage: src }}>
                 <div className="Hero__text" >
-                    <h4 className="Hero__hero-title">{selectedHero.title}</h4>
-                    <p className="Hero__hero-paragraph">{selectedHero.paragraph}</p>
+                    <h4 className="title-1">{selectedHero.title}</h4>
+                    <p className="paragraph-1">{selectedHero.paragraph}</p>
                 </div>
             </section>
         </>

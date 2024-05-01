@@ -14,15 +14,36 @@ ul li {
   list-style: none;
 }
 
+
+
 a,
 a:hover,
 a:active {
   text-decoration: none;
+  color: #000000;
+}
+
+.title-1 {
+  font-size: 1.8em; /* Tamaño de la fuente del título */
+}
+
+.paragraph-1 {
+  font-size: 1.2em; /* Tamaño de la fuente del párrafo */
+  color: #000000; /* Color del texto */
+}
+
+.title-2 {
+  font-size: 1.5em; /* Tamaño de la fuente del título */
+}
+
+.paragraph-2 {
+  font-size: 1.1em; /* Tamaño de la fuente del párrafo */
+  color: #000000; /* Color del texto */
 }
 
 .container {
-  width: 100%;
-  max-width: 1336px;
+  width: 99%;
+  max-width: 1440px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -56,22 +77,23 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   background-size: 100%;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 
 /* Estilos para el texto del héroe */
 .Hero__text {
+  display: inline-flex;
   bottom:0px ;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column ;
+  text-wrap: wrap;
+  text-align: center;
 
 }
 
-.Hero__hero-title {
-  font-size: 24px; /* Tamaño de la fuente del título */
-  margin-bottom: 10px; /* Espaciado inferior del título */
-}
-
-.Hero__hero-paragraph {
-  font-size: 16px; /* Tamaño de la fuente del párrafo */
-  color: #333; /* Color del texto */
+.main{
+  display: grid;
+  grid-template-areas: "main_container section-aside";
 }

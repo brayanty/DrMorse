@@ -3,7 +3,7 @@ import "./css/normalize.css";
 
 import Hero from "./componets/Hero.jsx";
 import Navbar from "./componets/Nav.jsx";
-import MainSection from "./componets/mainSection.jsx";
+import Main from "./componets/Main.jsx"
 
 function App() {
 
@@ -13,7 +13,9 @@ function App() {
                 <Navbar />
                 <Hero />
             </header>
-            <MainSection />
+
+            <Main/>
+
         </>
     );
 }
