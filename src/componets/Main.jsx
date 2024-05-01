@@ -1,4 +1,5 @@
 
+
 function Main() {
     return (
     <main className="main">
@@ -17,13 +18,19 @@ function Main() {
             <nav className="aside_social-nav">
                 <ul className="social-nav">
                     <li className="nav-items">
-                        <a className="nav-item" href="#">facebook</a>
+                        <a className="nav-item" href="#">
+                            <i className="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
                     </li>
                     <li className="nav-items">
-                        <a className="nav-item" href="#">Instagram</a>
+                        <a className="nav-item" href="#">
+                            <i className="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
                     </li>
                     <li className="nav-items">
-                        <a className="nav-item" href="#">Twiter</a>
+                        <a className="nav-item" href="#">
+                            <FontAwesomeIcon icon="fa-brands fa-facebook" />
+                        </a>
                     </li>
                 </ul>
             </nav>
