@@ -96,4 +96,13 @@ body {
 .main{
   display: grid;
   grid-template-areas: "main_container section-aside";
+  grid-template-columns: 2fr 1fr;
+}
+
+.main_container{
+  grid-area: main_container;
+}
+
+.section-aside{
+  grid-area: section-aside;
 }

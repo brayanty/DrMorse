@@ -1,3 +1,4 @@
+
 export const heros = [
   {
     "title": "Bienvenido a Dr. Mose",
@@ -22,3 +23,10 @@ export const heros = [
   }
 
 ];
+
+
+export const svgs = {
+  facebook: "src/logos/facebook_icon.svg",
+  instagram: "src/logos/facebook_icon.svg",
+  whatsapp: "src/logos/facebook_icon.svg",
+}

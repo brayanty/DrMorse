@@ -1,6 +1,7 @@
 import "./css/app.css";
 import "./css/normalize.css";
 
+
 import Hero from "./componets/Hero.jsx";
 import Navbar from "./componets/Nav.jsx";
 import Main from "./componets/Main.jsx"

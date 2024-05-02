@@ -1,4 +1,4 @@
-
+ import { svgs } from "./consts.jsx";
 
 function Main() {
     return (
@@ -6,7 +6,7 @@ function Main() {
         <section className="main_container">
             <article className="main_whats">
                 <figure className="main_whats-img">
-                    <img src="./Img" alt="" />
+                    <img src="src/img/instrumental-odontologico.jpg" width={200 + 'px'} alt=""/>
                 </figure>
                 <div className="main_whats-text">
                     <h4 className="title-2">¿Sabias que?</h4>
@@ -19,17 +19,15 @@ function Main() {
                 <ul className="social-nav">
                     <li className="nav-items">
                         <a className="nav-item" href="#">
-                            <i className="fa fa-facebook" aria-hidden="true"></i>
+                            <img src={svgs.facebook} alt="" />
                         </a>
                     </li>
                     <li className="nav-items">
                         <a className="nav-item" href="#">
-                            <i className="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li className="nav-items">
                         <a className="nav-item" href="#">
-                            <FontAwesomeIcon icon="fa-brands fa-facebook" />
                         </a>
                     </li>
                 </ul>
