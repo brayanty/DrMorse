@@ -24,8 +24,8 @@ function Service() {
   ];
 
   return (
-    <section className="p-1 pt-10 container mx-auto">
-      <h3 className="mb-5 text-center text-black text-3xl font-primarybold">
+    <section className="p-1 pt-5 container mx-auto flex gap-10 flex-col">
+      <h3 className="text-center text-black text-4xl font-primarybold">
         Que encontrarás
       </h3>
       <div className="text-base gap-2 grid grid-cols-1 sm:grid-cols-3 grid- ">
