@@ -19,11 +19,11 @@ function Hero() {
 
   return (
     <section className="relative bg-cover bg-fixed bg-no-repeat bg-medical-research w-full h-[60vh] md:h-[70vh] flex max-md:flex-col justify-center">
-      <header className="container mx-auto w-full h-full flex flex-col justify-center items-center gap-6 p-2 z-10">
-        <h1 className=" text-white p-2 rounded-md text-4xl font-primarybold ">
+      <header className="container mx-auto w-full h-full flex flex-col justify-evenly md:justify-center items-center gap-6 p-2">
+        <h1 className=" text-white text-center p-2 rounded-md text-4xl font-primarybold">
           Bienvenido a Dr. Morse
         </h1>
-        <div className="relative m-5 w-full flex items-center justify-center">
+        <div className=" m-5 w-full flex items-center justify-center">
           {[0, 1, 2].map((i) => (
             <p
               key={i}
@@ -44,7 +44,7 @@ function Hero() {
             <li>
               <a href="#twitter" aria-label="ir a es X">
                 <FontAwesomeIcon
-                  className="scale-125 text-blue-200 text-shadow-sm"
+                  className="scale-125 hover:scale-150 text-blue-200 text-shadow-sm"
                   icon={faXTwitter}
                   style={{ color: "#fff" }}
                   size="2xl"
@@ -54,7 +54,7 @@ function Hero() {
             <li>
               <a href="#twitter" aria-label="ir a es X">
                 <FontAwesomeIcon
-                  className="scale-125"
+                  className="scale-125 hover:scale-150"
                   icon={faInstagram}
                   style={{ color: "#fff" }}
                   size="2xl"
@@ -64,7 +64,7 @@ function Hero() {
             <li>
               <a href="#twitter" aria-label="ir a es X">
                 <FontAwesomeIcon
-                  className="scale-125"
+                  className="scale-125 hover:scale-150"
                   icon={faWhatsapp}
                   style={{ color: "#fff" }}
                   size="2xl"
@@ -82,7 +82,7 @@ function Hero() {
       </header>
 
       <div
-        className="absolute invisible md:visible bottom-0  w-full"
+        className="absolute invisible md:visible bottom-0 w-full"
         style={{ height: "150px", overflow: "hidden" }}
       >
         <svg
