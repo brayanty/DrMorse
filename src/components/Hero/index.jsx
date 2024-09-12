@@ -12,7 +12,6 @@ function Hero() {
   useEffect(() => {
     const interval = setTimeout(() => {
       SetParagraph((prev) => (prev + 1) % 3); // Ciclo entre 0, 1, 2
-      console.log(isParagraph);
     }, 5000);
     return () => clearTimeout(interval); // Limpieza del timeout
   }, [isParagraph]);
@@ -40,38 +39,6 @@ function Hero() {
           ))}
         </div>
         <div className="w-full flex flex-row max-md:flex-col items-center gap-4 justify-evenly max-md:justify-center">
-          <ul className="font-primaryMedium flex flex-row gap-6 justify-center items-center">
-            <li>
-              <a href="#twitter" aria-label="ir a es X">
-                <FontAwesomeIcon
-                  className="scale-125 hover:scale-150 text-blue-200 text-shadow-sm"
-                  icon={faXTwitter}
-                  style={{ color: "#fff" }}
-                  size="2xl"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="#twitter" aria-label="ir a es X">
-                <FontAwesomeIcon
-                  className="scale-125 hover:scale-150"
-                  icon={faInstagram}
-                  style={{ color: "#fff" }}
-                  size="2xl"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="#twitter" aria-label="ir a es X">
-                <FontAwesomeIcon
-                  className="scale-125 hover:scale-150"
-                  icon={faWhatsapp}
-                  style={{ color: "#fff" }}
-                  size="2xl"
-                />
-              </a>
-            </li>
-          </ul>
           <button
             className="w-48 rounded-md border border-black text-white p-3 bg-primary px-4 py-2 text-md font-semibold hover:bg-slate-100 hover:text-slate-900 transition-colors"
             type="button"
