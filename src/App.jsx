@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Service from "./components/Service";
 import Map from "./components/Map";
 import Testimony from "./components/Testimony";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Service />
       <Map />
       <Testimony />
+      <Footer />
     </>
   );
 }
