@@ -1,24 +1,28 @@
+import prescripcionImagen from "../../assets/serviceImagen/undraw_notebook.svg";
+import virusImagen from "../../assets/serviceImagen/virus-isolated-on-white.svg";
+import medicalImagen from "../../assets/serviceImagen/undraw_medical.svg";
+
 function Service() {
   const service = [
     {
       title: "Diagnostico y tratarmiento de enfermedades",
       description:
         "En nuestro centro podrás encontrar un servicio de calidad y profesionalismo.",
-      img: "src/assets/ServiceImagen/virus-isolated-on-white.svg",
+      img: virusImagen,
       alt: "Icono de virus",
     },
     {
       title: "Prescripción tratamientos",
       description:
         "Gracias a nuestra amplia experiencia, podemos ofrecerte una prescripción adecuada.",
-      img: "src/assets/ServiceImagen/undraw_notebook.svg",
+      img: prescripcionImagen,
       alt: "Icono de prescripción",
     },
     {
       title: "Medicamentos",
       description:
         "Ofrecemos una variedad de medicamentos para diversas necesidades.",
-      img: "src/assets/ServiceImagen/undraw_medical.svg",
+      img: medicalImagen,
       alt: "Icono de medicamentos",
     },
   ];

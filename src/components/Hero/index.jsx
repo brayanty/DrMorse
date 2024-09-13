@@ -5,6 +5,7 @@ import {
   faWhatsapp,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import heroImage from "../../assets/headerImagen/Brand.jpg";
 
 function Hero() {
   const [isParagraph, SetParagraph] = useState(0);
@@ -17,7 +18,16 @@ function Hero() {
   }, [isParagraph]);
 
   return (
-    <section className="relative md:bg-fixed bg-cover bg-no-repeat bg-medical-research w-full h-[90vh] md:h-[90vh] flex max-md:flex-col justify-center">
+    <section
+      style={{
+        background: `linear-gradient(180deg, hsla(0, 0%, 0%, 0.219) 0%, hsla(0, 0%, 0%, 0.205) 100%),url(${heroImage})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundPosition: "top",
+        backgroundAttachment: "fixed",
+      }}
+      className="relative w-full h-[60vh] md:h-[90vh] flex max-md:flex-col justify-center"
+    >
       <header className="container mx-auto w-full h-full flex flex-col justify-center md:justify-center items-center gap-6 p-2">
         <h1 className=" text-white text-center p-2 rounded-md text-4xl font-primarybold">
           Bienvenido a Dr. Morse

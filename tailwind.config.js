@@ -47,6 +47,7 @@ export default {
         { values: theme('textShadow') }
       )
     },
+    // eslint-disable-next-line no-undef
     require('@tailwindcss/forms'),
   ],
 }
