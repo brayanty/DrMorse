@@ -1,4 +1,4 @@
-import prescripcionImagen from "../../assets/serviceImagen/undraw_notebook.svg";
+import prescripcionImagen from "../../assets/ServiceImagen/undraw_notebook.svg";
 import virusImagen from "../../assets/ServiceImagen/virus-isolated-on-white.svg";
 import medicalImagen from "../../assets/ServiceImagen/undraw_medical.svg";
 
