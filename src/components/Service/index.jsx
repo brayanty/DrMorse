@@ -1,6 +1,6 @@
 import prescripcionImagen from "../../assets/serviceImagen/undraw_notebook.svg";
-import virusImagen from "../../assets/serviceImagen/virus-isolated-on-white.svg";
-import medicalImagen from "../../assets/serviceImagen/undraw_medical.svg";
+import virusImagen from "../../assets/ServiceImagen/virus-isolated-on-white.svg";
+import medicalImagen from "../../assets/ServiceImagen/undraw_medical.svg";
 
 function Service() {
   const service = [
