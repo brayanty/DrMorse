@@ -1,11 +1,11 @@
 # Dr. Morse
 
-Es una paginas, en la que se emplea React + TailwindCSS, para la presentación de los servicios de un centro de salud.
+It is a page, in which React + TailwindCSS is used, to present the services of a health center.
 
 
 ## API Reference
 
-API utilizada para obtener usuario https://randomuser.me/
+API used to get user https://randomuser.me/
 
 
 ## 🛠 Skills
