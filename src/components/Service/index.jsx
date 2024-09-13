@@ -1,14 +1,14 @@
 function Service() {
   const service = [
     {
-      title: "Diagnostico y tratar enfermedades",
+      title: "Diagnostico y tratarmiento de enfermedades",
       description:
-        "En nuestro centro podrás encontrar un servicio de calidad y experiencia.",
+        "En nuestro centro podrás encontrar un servicio de calidad y profesionalismo.",
       img: "src/assets/ServiceImagen/virus-isolated-on-white.svg",
       alt: "Icono de virus",
     },
     {
-      title: "Prescribir tratamientos",
+      title: "Prescripción tratamientos",
       description:
         "Gracias a nuestra amplia experiencia, podemos ofrecerte una prescripción adecuada.",
       img: "src/assets/ServiceImagen/undraw_notebook.svg",
