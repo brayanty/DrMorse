@@ -5,7 +5,7 @@ import {
   faWhatsapp,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import heroImage from "../../assets/headerImagen/Brand.jpg";
+import heroImage from "../../assets/HeaderImagen/Brand.jpg";
 
 function Hero() {
   const [isParagraph, SetParagraph] = useState(0);
