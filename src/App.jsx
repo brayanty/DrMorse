@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Service from "./components/Service";
 import Map from "./components/Map";
+import Testimony from "./components/Testimony";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Service />
       <Map />
+      <Testimony />
     </>
   );
 }

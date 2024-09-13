@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <section
-      className="container mx-auto p-4 flex flex-col gap-6 items-center
+      className="container mx-auto p-4 flex flex-col gap-10 items-center
      "
     >
       <h4 className="text-black text-center text-4xl font-primarybold">

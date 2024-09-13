@@ -1,10 +1,10 @@
+import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
   faWhatsapp,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { useEffect, useState } from "react";
 
 function Hero() {
   const [isParagraph, SetParagraph] = useState(0);
@@ -17,8 +17,8 @@ function Hero() {
   }, [isParagraph]);
 
   return (
-    <section className="relative bg-cover bg-fixed bg-no-repeat bg-medical-research w-full h-[60vh] md:h-[70vh] flex max-md:flex-col justify-center">
-      <header className="container mx-auto w-full h-full flex flex-col justify-evenly md:justify-center items-center gap-6 p-2">
+    <section className="relative md:bg-fixed bg-cover bg-no-repeat bg-medical-research w-full h-[90vh] md:h-[90vh] flex max-md:flex-col justify-center">
+      <header className="container mx-auto w-full h-full flex flex-col justify-center md:justify-center items-center gap-6 p-2">
         <h1 className=" text-white text-center p-2 rounded-md text-4xl font-primarybold">
           Bienvenido a Dr. Morse
         </h1>
@@ -39,6 +39,38 @@ function Hero() {
           ))}
         </div>
         <div className="w-full flex flex-row max-md:flex-col items-center gap-4 justify-evenly max-md:justify-center">
+          <ul className="font-primaryMedium flex flex-row gap-6 justify-center items-center">
+            <li>
+              <a href="#twitter" aria-label="ir a es X">
+                <FontAwesomeIcon
+                  className="scale-125 hover:scale-150 text-blue-200 text-shadow-sm"
+                  icon={faXTwitter}
+                  style={{ color: "#fff" }}
+                  size="2xl"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#twitter" aria-label="ir a es X">
+                <FontAwesomeIcon
+                  className="scale-125 hover:scale-150"
+                  icon={faInstagram}
+                  style={{ color: "#fff" }}
+                  size="2xl"
+                />
+              </a>
+            </li>
+            <li className="flex gap-3">
+              <a href="#twitter" aria-label="ir a es X">
+                <FontAwesomeIcon
+                  className="scale-125 hover:scale-150"
+                  icon={faWhatsapp}
+                  style={{ color: "#fff" }}
+                  size="2xl"
+                />{" "}
+              </a>
+            </li>
+          </ul>
           <button
             className="w-48 rounded-md border border-black text-white p-3 bg-primary px-4 py-2 text-md font-semibold hover:bg-slate-100 hover:text-slate-900 transition-colors"
             type="button"
